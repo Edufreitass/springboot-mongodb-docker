@@ -40,7 +40,7 @@ docker rm <containerId>
 version: "3"
 services:
   javatechiemongodb:
-    image: mongo:latest
+    image: mongo:4.4.6-bionic
     container_name: "javatechiemongodb"
     ports:
       - 27017:27017
